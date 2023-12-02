@@ -1,6 +1,6 @@
 import React from "react";
 import Demo from "./components/Demo";
-import "./app.css";
+import "./App.css";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 
