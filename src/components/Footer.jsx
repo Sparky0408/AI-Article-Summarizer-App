@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
-        <p>© 2024 Ruturaj Shinde. All rights reserved.</p>
+        <p>© { <span>{new Date().getFullYear()}&copy; All Rights Reserved.</span>} Ruturaj Shinde. All rights reserved.</p>
       </div>
     </footer>
   );
